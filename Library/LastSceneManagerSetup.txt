@@ -1,0 +1,6 @@
+sceneSetups:
+- path: Assets/_TaiNguyen/map/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art
+    Top Down - Basic.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

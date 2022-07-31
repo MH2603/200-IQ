@@ -257,6 +257,9 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Users/TungPC/Desktop/all unity/ảnh thông tin học tập/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Users/TungPC/Desktop/all unity/ảnh thông tin học tập/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Users/TungPC/Desktop/all unity/ảnh thông tin học tập/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
  </Reference>

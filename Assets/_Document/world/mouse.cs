@@ -5,22 +5,31 @@ using UnityEngine;
 public class mouse : MonoBehaviour
 {
 
-    public Texture2D cursor,cursorDown;
+    public Texture2D[] cursors;
 
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.SetCursor(cursor, Vector2.zero, CursorMode.ForceSoftware);
+        SetMouse();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            SetMouse();
+        }
+        else if(Input.GetMouseButtonUp(0))
+        {
+            SetMouse();
+        }
     }
 
-    void MouseButtonDown()
+    void SetMouse() 
     {
-        Cursor.SetCursor(cursorDown, Vector2.zero, CursorMode.ForceSoftware);
+        int k = Random.Range(0,cursors.Length);
+
+        Cursor.SetCursor(cursors[k], Vector2.zero, CursorMode.ForceSoftware);
     }
 }

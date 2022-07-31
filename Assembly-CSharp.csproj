@@ -68,6 +68,8 @@
      <Compile Include="Assets\_Document\codeRiver01\animalButton.cs" />
      <Compile Include="Assets\_Document\codeRiver01\boat.cs" />
      <Compile Include="Assets\_Document\codeRiver01\ground.cs" />
+     <Compile Include="Assets\_Document\world\MusicDontDestroy.cs" />
+     <Compile Include="Assets\_Document\world\SavePos.cs" />
      <Compile Include="Assets\_Document\world\boxCheck.cs" />
      <Compile Include="Assets\_Document\world\cameraFollow.cs" />
      <Compile Include="Assets\_Document\world\mouse.cs" />

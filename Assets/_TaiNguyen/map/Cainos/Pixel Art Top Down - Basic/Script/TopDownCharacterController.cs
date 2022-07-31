@@ -6,6 +6,7 @@ namespace Cainos.PixelArtTopDown_Basic
 {
     public class TopDownCharacterController : MonoBehaviour
     {
+        
         public float speed;
 
         private Animator animator;
@@ -14,6 +15,8 @@ namespace Cainos.PixelArtTopDown_Basic
         {
             animator = GetComponent<Animator>();
         }
+
+      
 
 
         private void Update()
